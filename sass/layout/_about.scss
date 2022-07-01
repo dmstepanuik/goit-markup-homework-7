@@ -10,7 +10,7 @@
   color: var(--forth-title-color);
   margin-bottom: 50px;
 }
-.about-item {
+.pic__list-item {
   position: relative;
   &:first-child {
     margin-right: 30px;
@@ -20,7 +20,7 @@
   }
 }
 
-.about-list {
+.pic__list {
   list-style: none;
   display: flex;
 }

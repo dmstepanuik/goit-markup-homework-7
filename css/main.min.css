@@ -85,7 +85,8 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--btn-color);
   border-radius: 50%;
-  @extend %align-list;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 .modal-close-btn .modal-btn:hover,
