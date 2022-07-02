@@ -1,11 +1,16 @@
+//utils
 @import './utils/vars';
-@import './base/reset';
-@import './base/common';
 @import './utils/hidden';
 
+//base styles
+@import './base/reset';
+@import './base/common';
+
+//components styles
 @import './components/container';
 @import './components/modal';
 
+//layot styles
 @import './layout/header';
 @import './layout/hero';
 @import './layout/porfolio';
